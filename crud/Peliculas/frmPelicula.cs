@@ -105,6 +105,17 @@ namespace Peliculas
             dtpFecha.Value = DateTime.Now;
         }
 
-       
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                dgvPeliculas.DataSource = null;
+                dgvPeliculas.DataSource = Modelo.Peliculas.Buscar(txtBuscar.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

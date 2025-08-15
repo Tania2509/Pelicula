@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Peliculas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BADD9A9-6FB9-4E06-AFA2-6CE34F4913B6}|Vistas.csproj|C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Peliculas\\frmpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BADD9A9-6FB9-4E06-AFA2-6CE34F4913B6}|Vistas.csproj|solutionrelative:frmpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{575FCE3B-CC41-44EB-9C76-A17A4AF696B6}|..\\Modelo\\Modelo.csproj|c:\\users\\jrlop\\onedrive\\desktop\\crud\\crud\\modelo\\peliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{575FCE3B-CC41-44EB-9C76-A17A4AF696B6}|..\\Modelo\\Modelo.csproj|c:\\users\\jrlop\\onedrive\\desktop\\crud\\crud\\modelo\\peliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BADD9A9-6FB9-4E06-AFA2-6CE34F4913B6}|Vistas.csproj|c:\\users\\jrlop\\onedrive\\desktop\\crud\\crud\\peliculas\\frmpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BADD9A9-6FB9-4E06-AFA2-6CE34F4913B6}|Vistas.csproj|solutionrelative:frmpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BADD9A9-6FB9-4E06-AFA2-6CE34F4913B6}|Vistas.csproj|C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Peliculas\\frmpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -24,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -34,20 +34,20 @@
               "RelativeDocumentMoniker": "..\\Modelo\\Conexion.cs",
               "ToolTip": "C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Modelo\\Conexion.cs",
               "RelativeToolTip": "..\\Modelo\\Conexion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T17:47:55.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Peliculas.cs",
               "DocumentMoniker": "C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Modelo\\Peliculas.cs",
               "RelativeDocumentMoniker": "..\\Modelo\\Peliculas.cs",
               "ToolTip": "C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Modelo\\Peliculas.cs",
               "RelativeToolTip": "..\\Modelo\\Peliculas.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAhwDgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAIA7wF4AAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T17:39:54.932Z",
               "EditorCaption": ""
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmPelicula.cs",
               "DocumentMoniker": "C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Peliculas\\frmPelicula.cs",
               "RelativeDocumentMoniker": "frmPelicula.cs",
               "ToolTip": "C:\\Users\\jrlop\\OneDrive\\Desktop\\CRUD\\crud\\Peliculas\\frmPelicula.cs",
               "RelativeToolTip": "frmPelicula.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwD4AAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAhwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T20:58:01.529Z",
               "EditorCaption": ""

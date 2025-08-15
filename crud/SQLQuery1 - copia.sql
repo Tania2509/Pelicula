@@ -22,3 +22,7 @@ go
 select *from Peliculas
 
 select * from Peliculas
+
+select id, nombre, director, fechalanzamiento from Peliculas
+
+        

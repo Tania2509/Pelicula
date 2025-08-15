@@ -38,13 +38,15 @@
             this.btnActualizar = new System.Windows.Forms.Button();
             this.dgvPeliculas = new System.Windows.Forms.DataGridView();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPeliculas)).BeginInit();
             this.SuspendLayout();
             // 
             // lbNombre
             // 
             this.lbNombre.AutoSize = true;
-            this.lbNombre.Location = new System.Drawing.Point(165, 66);
+            this.lbNombre.Location = new System.Drawing.Point(237, 22);
             this.lbNombre.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbNombre.Name = "lbNombre";
             this.lbNombre.Size = new System.Drawing.Size(219, 23);
@@ -54,7 +56,7 @@
             // lbDirector
             // 
             this.lbDirector.AutoSize = true;
-            this.lbDirector.Location = new System.Drawing.Point(165, 136);
+            this.lbDirector.Location = new System.Drawing.Point(237, 92);
             this.lbDirector.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbDirector.Name = "lbDirector";
             this.lbDirector.Size = new System.Drawing.Size(82, 23);
@@ -64,7 +66,7 @@
             // lbFecha
             // 
             this.lbFecha.AutoSize = true;
-            this.lbFecha.Location = new System.Drawing.Point(165, 207);
+            this.lbFecha.Location = new System.Drawing.Point(237, 163);
             this.lbFecha.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbFecha.Name = "lbFecha";
             this.lbFecha.Size = new System.Drawing.Size(167, 23);
@@ -73,7 +75,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(431, 63);
+            this.txtNombre.Location = new System.Drawing.Point(503, 19);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(360, 30);
@@ -81,7 +83,7 @@
             // 
             // txtDirector
             // 
-            this.txtDirector.Location = new System.Drawing.Point(431, 134);
+            this.txtDirector.Location = new System.Drawing.Point(503, 90);
             this.txtDirector.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.txtDirector.Name = "txtDirector";
             this.txtDirector.Size = new System.Drawing.Size(360, 30);
@@ -89,7 +91,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(134, 288);
+            this.btnAgregar.Location = new System.Drawing.Point(191, 305);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(170, 63);
@@ -100,7 +102,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(690, 288);
+            this.btnEliminar.Location = new System.Drawing.Point(747, 305);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(170, 63);
@@ -111,7 +113,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(411, 288);
+            this.btnActualizar.Location = new System.Drawing.Point(468, 305);
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(170, 63);
@@ -124,30 +126,49 @@
             // 
             this.dgvPeliculas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPeliculas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPeliculas.Location = new System.Drawing.Point(18, 360);
+            this.dgvPeliculas.Location = new System.Drawing.Point(15, 390);
             this.dgvPeliculas.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.dgvPeliculas.Name = "dgvPeliculas";
             this.dgvPeliculas.ReadOnly = true;
             this.dgvPeliculas.RowHeadersVisible = false;
             this.dgvPeliculas.RowHeadersWidth = 51;
             this.dgvPeliculas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPeliculas.Size = new System.Drawing.Size(1164, 246);
+            this.dgvPeliculas.Size = new System.Drawing.Size(1149, 200);
             this.dgvPeliculas.TabIndex = 8;
             this.dgvPeliculas.DoubleClick += new System.EventHandler(this.dgvPeliculas_DoubleClick);
             // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(431, 198);
+            this.dtpFecha.Location = new System.Drawing.Point(503, 154);
             this.dtpFecha.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(360, 30);
             this.dtpFecha.TabIndex = 9;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(834, 220);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(105, 57);
+            this.btnBuscar.TabIndex = 23;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // txtBuscar
+            // 
+            this.txtBuscar.Location = new System.Drawing.Point(281, 237);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(482, 30);
+            this.txtBuscar.TabIndex = 22;
             // 
             // frmPelicula
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 622);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.dgvPeliculas);
             this.Controls.Add(this.btnActualizar);
@@ -184,6 +205,8 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.DataGridView dgvPeliculas;
         private System.Windows.Forms.DateTimePicker dtpFecha;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.TextBox txtBuscar;
     }
 }
 
